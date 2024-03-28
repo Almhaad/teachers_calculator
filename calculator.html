@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teachers Calculator</title>
+</head>
+<body>
+<section>
+
+ <div id="logo">
+        <img src="logo.jpg" alt="">
+    </div>
+    <H1>حاسبة الدرجات اليومية</H1>
+
+    <h4>يتم الحساب عن طريق إدخال <u>عدد المرات</u>
+         التي تم الفتح أو التنبية على الطالبة </h4>
+
+
+    <div class="square">
+        <H1>حفظ</H1>
+
+        <DIV class="display-inline">فتح 
+            <span>
+                <input type="number" id="open-memo" value="">
+            </span>
+        </DIV>
+
+        <DIV  class="display-inline">تنبيه
+            <span>
+                <input type="number" id="atten-memo">
+            </span>
+        </DIV>  
+
+        <div class="result font-20 ">
+            الناتج من 20 = <span id="result-memo" class="font-w-b">...</span>
+            <div class="decimals font-10" >
+                <span>25. = ربع</span>
+                <span>5. = نص</span>
+                <span>75. = ثلاث أرباع</span>         
+            </div>
+        </div>
+
+        <input type="button" value="احسب" id="cal-memo">
+    </div>
+
+    <div class="square">
+        <H1>تلاوة</H1>
+
+        <DIV  class="display-inline">فتح 
+            <span>
+                <input type="number" id="open-read">
+            </span>
+        </DIV>
+
+        <DIV  class="display-inline">تنبيه
+            <span>
+                <input type="number" id="atten-read">
+            </span>
+        </DIV>  
+
+        <div class="result  font-20" >
+            الناتج من 20 = <span id="result-read" class="font-w-b">...</span>
+            <div class="decimals font-10" >
+                <span>25. = ربع</span>
+                <span>5. = نص</span>
+                <span>75. = ثلاث أرباع</span>         
+            </div>
+        </div>
+
+        <input type="button" value="احسب" id="cal-read">
+    </div>
+
+
+
+</section>
+   
+<footer class="color-red">
+صُنعَ من خليط حُبٍ لكُنَّ مع حبة الهَيل
+    <span>
+          &#9829
+         هيلة
+   </span>
+</footer>
+    
+<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>

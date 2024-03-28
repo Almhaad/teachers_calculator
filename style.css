@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Cairo&display=swap');
+body{
+    background-color: #c9eaeb;
+    margin: 0 auto;
+    /* padding: 10px; */
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+img{
+   mix-blend-mode: multiply;
+   width: 250px;
+}
+.font-w-b{
+    font-weight: bolder;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-10{
+    font-size: 10px;
+}
+.display-inline{
+    display: inline;
+}
+.color-red{
+    color: rgb(185, 2, 2);
+}
+
+.square{
+    width: 350px;
+    margin: 15px auto;
+    padding: 0;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+.result{
+    margin: 10px;
+}
+.decimals{
+    margin: auto;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #26abb1;
+}
+.decimals span{
+    margin: 0 10px;
+    padding: 0;
+}
+
+input[type=number]{
+    width: 75px;
+    height: 20px;
+    margin: 5px;
+    background-color: #fcf5e3;
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 3px;
+}
+input[type=button]{
+    width: 60px;
+    height: 35px;
+    background-color: #fcf5e3;
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+
+footer{
+font-family: 'Aref Ruqaa Ink', serif;
+margin: 75px 0 0 0; 
+}
