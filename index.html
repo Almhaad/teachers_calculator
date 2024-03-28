@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teachers Calculator</title>
+</head>
+<body>
+<section>
+
+ <div id="logo">
+        <img src="logo.jpg" alt="">
+ </div>
+    <H1>حاسبة الدرجات الأسبوعية</H1>
+
+    <h4>يتم الحساب عن طريق إدخال <u>عدد المرات</u>
+         التي تم الفتح أو التنبية على الطالبة </h4>
+
+
+    <div class="square">
+        <H1>حفظ</H1>
+
+        <!-- WEEK DAYS AND ABSENT DAYS -->
+        <form>
+     <section class="margin-10">
+        <DIV class="display-inline margin-l-20">
+          <label for="lessons-memo">محضرات الحفظ :</label>
+            <select id="lessons-memo" name="lessons-memo" class="select-square">
+                <option value="5" selected >5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+            </select>
+        </DIV>
+    
+        <DIV class="display-inline">
+           <label for="absent-memo">الغياب :</label>
+            <select id="absent-memo" name="absent-memo" class="select-square">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>  
+        </DIV>
+     </section>
+     <!-- ____ -->
+     <!-- OPENING AND ATTENTION -->
+
+     <section class="margin-10">
+        <DIV class="display-inline margin-l-20"> 
+             <span>
+                    <label for="open-memo">فتح</label>
+                <select id="open-memo" name="open-memo" class="select-square">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                </select>
+             </span>
+            </DIV>
+
+            <DIV  class="display-inline">
+                <span>
+                    <label for="atten-memo">تنبيه</label>
+                <select id="atten-memo" name="atten-memo" class="select-square">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <!--<option value="21">21</option>-->
+                    <!--<option value="22">22</option>-->
+                    <!--<option value="23">23</option>-->
+                    <!--<option value="24">24</option>-->
+                    <!--<option value="25">25</option>-->
+                </select>
+                </span>
+            </DIV>  
+     </section>
+       <!-- ____ -->
+        <div class="result font-20 margin-10">
+            الناتج  = <span id="result-memo" class="font-w-b">...</span> <br>
+          =~ <span id="result-almost-memo" class="font-w-b font-15">...</span>
+            <!-- <div class="decimals font-8" >
+                <span>25. = ربع</span>
+                <span>5. = نص</span>
+                <span>75. = ثلاث أرباع</span>         
+            </div> -->
+        </div>
+
+        <input type="button" value="احسب" id="cal-memo"> <br>
+        <input type="reset" class="margin-t-0" value="إعادة ضبط">
+
+    </form>   
+    </div>
+
+    <!-- SQUARE ONE ENDING -->
+
+
+    <div class="square">
+        <H1>تلاوة</H1>
+        <form>
+            <!-- WEEK DAYS AND ABSENT DAYS -->
+            <section class="margin-10">
+                <DIV class="display-inline margin-l-20">
+                <label for="lessons-read">محاضرات التلاوة :</label>
+                    <select id="lessons-read" name="lessons-read" class="select-square">
+                        <option value="3">3</option>
+                        <option value="2" selected >2</option>
+                        <option value="1">1</option>
+                    </select>
+                </DIV>
+            
+                <DIV class="display-inline">
+                <label for="absent-read">الغياب :</label>
+                    <select id="absent-read" name="absent-read" class="select-square">
+                        <option value="0" selected>0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>  
+                </DIV>
+            </section>
+            <!-- ____ -->
+            <!-- OPENING AND ATTENTION -->
+            <section class="margin-10">
+            
+                <DIV class="display-inline margin-l-20"> 
+                    <span>
+                            <label for="open-read">فتح</label>
+                        <select id="open-read" name="open-read" class="select-square">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                        </select>
+                    </span>
+                    </DIV>
+
+                    <DIV  class="display-inline">
+                        <span>
+                            <label for="atten-read">تنبيه</label>
+                        <select id="atten-read" name="atten-read" class="select-square">
+                            <option value="0" selected>0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <!--<option value="21">21</option>-->
+                            <!--<option value="22">22</option>-->
+                            <!--<option value="23">23</option>-->
+                            <!--<option value="24">24</option>-->
+                            <!--<option value="25">25</option>-->
+                        </select>
+                        </span>
+                    </DIV>  
+            </section> 
+            <!-- ____ -->
+                <div class="result font-20 margin-10" >
+                    الناتج  = <span id="result-read" class="font-w-b">...</span> <br>
+                    =~ <span id="result-almost-read" class="font-w-b font-15">...</span>
+                    <!-- <div class="decimals font-8" >
+                        <span>25. = ربع</span>
+                        <span>5. = نص</span>
+                        <span>75. = ثلاث أرباع</span>         
+                    </div> -->
+                </div>
+
+                <input type="button" value="احسب" id="cal-read"> <br>
+                <input type="reset" class="margin-t-0" value="إعادة ضبط">
+
+        </form>   
+    </div>
+
+
+
+</section>
+   
+<footer class="color-red">
+صُنعَ من خليط حُبٍ لكُنَّ مع حبة هَيل
+<!--<span class="font-8">  &#9829  </span>-->
+ <br>  <span class="font-8">
+          
+         هيلة
+   </span>
+</footer>
+    
+<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>

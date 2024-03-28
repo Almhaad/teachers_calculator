@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Cairo&display=swap');
+body{
+    background-color: #c9eaeb;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+img{
+   mix-blend-mode: multiply;
+   width: 250px;
+}
+.font-w-b{
+    font-weight: bolder;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-8{
+    font-size: 8px;
+}
+
+
+.display-inline{
+    display: inline;
+}
+.color-red{
+    color: rgb(185, 2, 2);
+}
+.margin-10{
+    margin: 10px;
+}
+.margin-l-20{
+    margin-left: 20px;
+}
+.margin-t-0{
+    margin-top: 0 !important;
+}
+
+.square{
+    width: 350px;
+    margin: 15px auto;
+    padding: 0;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+.decimals{
+    margin: auto;
+    padding: 0;
+    width: 150px;
+    border: 1px solid #26abb1;
+}
+.decimals span{
+    margin: 0 5px;
+    padding: 0;
+}
+
+input[type=number]{
+    width: 75px;
+    height: 20px;
+    margin: 5px;
+    background-color: #fcf5e3;
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 3px;
+}
+
+.select-square{
+    width: 45px;
+    height: 30px;
+    background-color: #fcf5e3;
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 3px;
+    font-family: 'Cairo', sans-serif;
+}
+
+input[type=button] , input[type=reset] {
+    width: auto;
+    height: 35px;
+    background-color: #fcf5e3;
+    border: 1px rgb(155, 155, 155) solid;
+    border-radius: 3px;
+    margin: 15px 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+footer{
+font-family: 'Aref Ruqaa Ink', serif;
+margin: 75px 0 55px 0; 
+}
