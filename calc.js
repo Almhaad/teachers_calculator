@@ -98,7 +98,7 @@ function copyToClipboard(var1){
     selBox.select();
     document.execCommand('copy');
     document.body.removeChild(selBox);
-    alert('تم النسخ للقيمة :' var1);
+    alert(`تم النسخ للقيمة : ${val}`);
 
   }  
 
