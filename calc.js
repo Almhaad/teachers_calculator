@@ -98,7 +98,7 @@ function copyToClipboard(var1){
     selBox.select();
     document.execCommand('copy');
     document.body.removeChild(selBox);
-    alert('text copied to clipboard, please use Ctrl-V to paste the data');
+    alert('تم النسخ للقيمة :' var1);
 
   }  
 
